@@ -75,13 +75,13 @@ public class SoundManager : GameDefine {
 
         switch (soundType) {
             case SOUND_TYPE.BGM:
-                bgmPlayer.SetVolume();
+                bgmPlayer.SetVolume(volume);
                 break;
             case SOUND_TYPE.SE:
-                sePlayer.SetVolume();
+                sePlayer.SetVolume(volume);
                 break;
             case SOUND_TYPE.VOICE:
-                voicePlayer.SetVolume();
+                voicePlayer.SetVolume(volume);
                 break;
         }
     }
