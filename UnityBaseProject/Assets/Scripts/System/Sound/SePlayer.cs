@@ -21,7 +21,7 @@ public class SePlayer : MonoBehaviour
     {
 
         // 指定したファイルのロード
-        AudioClip audio = Resources.Load("Sound/Se/" + fileName) as AudioClip;
+        AudioClip audio = Resources.Load("Sounds/Se/" + fileName) as AudioClip;
 
         // ロードできなかった時
         if (audio == null)

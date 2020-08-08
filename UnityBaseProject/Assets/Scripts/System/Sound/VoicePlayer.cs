@@ -16,7 +16,7 @@ public class VoicePlayer : MonoBehaviour {
     //// ファイル読み込みメソッド ////
     public void Load(string fileName) {
 
-        AudioClip audio = Resources.Load("Sound/Voice/" + fileName) as AudioClip;
+        AudioClip audio = Resources.Load("Sounds/Voice/" + fileName) as AudioClip;
 
         // AudioClipが用意できなかった又はロード失敗時
         if (audio == null) {

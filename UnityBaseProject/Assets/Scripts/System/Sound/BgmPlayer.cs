@@ -17,7 +17,7 @@ public class BgmPlayer : MonoBehaviour {
     // BGMロードメソッド
     public void Load(string fileName) {
 
-        AudioClip audio = Resources.Load("Sound/Bgm/" + fileName) as AudioClip; // as:AudioClipへのキャスト
+        AudioClip audio = Resources.Load("Sounds/Bgm/" + fileName) as AudioClip; // as:AudioClipへのキャスト
 
         // ロード失敗時エラーログ(デバッグ用)
         if(audio == null) {

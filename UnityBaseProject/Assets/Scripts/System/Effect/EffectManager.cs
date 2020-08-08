@@ -29,7 +29,7 @@ public class EffectManager : MonoBehaviour {
 
 
     //// エフェクトの座標指定生成メソッド ////
-    void CreateEffect(string fileName, Vector3 transform, bool loop = false) {
+    public void CreateEffect(string fileName, Vector3 transform, bool loop = false) {
 
         if (effectLoadList.ContainsKey(fileName)) {
 
